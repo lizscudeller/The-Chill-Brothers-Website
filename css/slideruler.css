@@ -1,0 +1,81 @@
+.rangeslider,
+input[type='range'] {
+  /* max-width: 400px; */
+  display: inline-block;
+  margin-bottom: 80px;
+  width: 150%!important;
+}
+
+.rangeslider__ruler {
+  cursor: pointer;
+  font-size: .7em;
+  margin: 20px 3px 0 3px;
+  position: relative;
+  top: 100%;
+  text-align: justify;
+}
+
+/* Workaround to justify only one-line.*/
+/* Extra element to force a new line.*/
+.rangeslider__ruler:after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+
+#tonslider label, #newslider label, #oldslider label {
+    position: absolute;
+    margin-left: 0px;
+    /* top: 250px; */
+    width: 0px;
+    text-align: center;
+    color: #000;
+    margin-top: 20px;
+  }
+  .test {
+      max-width: 99.3%;
+      position: relative;
+      top: -100px;
+  }
+  #seerslider h3{
+    padding-bottom: 20px;
+  }
+  #seerslider p{
+    margin:0;
+  }
+  #seerslider h1{
+    margin-top:50px!important;
+  }
+  .slidercl{
+      padding-bottom: 50px;
+  }
+  .service_details_left h1{
+      margin: 0!important;
+  }
+
+    ::-webkit-input-placeholder {
+        text-align: center;
+     }
+     
+     :-moz-placeholder { /* Firefox 18- */
+        text-align: center;  
+     }
+     
+     ::-moz-placeholder {  /* Firefox 19+ */
+        text-align: center;  
+     }
+     
+     :-ms-input-placeholder {  
+        text-align: center; 
+     }
+  .kw input{
+      background-color: rgb(240, 240, 240);
+      width: 100%;
+      text-align: center;
+      border:solid 0.5px rgb(170, 170, 170);
+  }
+  .slidercl .col-md-6, .slidercl .col-md-4{
+      background-color:rgb(240, 240, 240) ;
+      border:solid 0.5px rgb(170, 170, 170);
+  }
+  
