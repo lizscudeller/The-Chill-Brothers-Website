@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow:https://thechillbrothers.com/duct-cleaning-services.html
+Disallow:https://thechillbrothers.com/6-months-of-savings.html
+Sitemap: https://thechillbrothers.com/sitemap.html
